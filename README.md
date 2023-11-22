@@ -1,4 +1,4 @@
-# Dimfeld Tap
+# Daniel Imfeld's Tap
 
 ## How do I install these formulae?
 
