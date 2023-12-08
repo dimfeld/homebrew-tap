@@ -1,13 +1,13 @@
 class Promptbox < Formula
   desc "A CLI tool for managing and executing LLM prompt templates"
   if Hardware::CPU.type == :arm
-    url "https://github.com/dimfeld/promptbox/releases/download/v0.1.2/promptbox-aarch64-apple-darwin.tar.gz"
-    sha256 "e36e78b83cf90290e30225fe102d31c877d6586ecbbb139cc97e4bc1d8c2b028"
+    url "https://github.com/dimfeld/promptbox/releases/download/v0.2.0/promptbox-aarch64-apple-darwin.tar.gz"
+    sha256 "4fe94af15b364a37ed3e231920f5950e31c431a66e9b19c3ca0b3ecc0e667fa8"
   else
-    url "https://github.com/dimfeld/promptbox/releases/download/v0.1.2/promptbox-x86_64-apple-darwin.tar.gz"
-    sha256 "2814b7b19aa3c3c5f90d9b1ff9806a35aa6685784eb0ee6696bfbfdadab5c0f6"
+    url "https://github.com/dimfeld/promptbox/releases/download/v0.2.0/promptbox-x86_64-apple-darwin.tar.gz"
+    sha256 "b4d594f8c85604f0ab54cb7e8fae54d304837cd30ee4bcdd66d36285f39bf7e4"
   end
-  version "0.1.2"
+  version "0.2.0"
   license "MIT OR Apache-2.0"
 
   def install
