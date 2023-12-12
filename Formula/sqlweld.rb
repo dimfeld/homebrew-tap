@@ -1,13 +1,13 @@
 class Sqlweld < Formula
   desc "Create SQL files from templates and partials"
   if Hardware::CPU.type == :arm
-    url "https://github.com/dimfeld/sqlweld/releases/download/v0.1.5/sqlweld-aarch64-apple-darwin.tar.gz"
-    sha256 "58ebd6cd23cce3b3c9f72cfb4f880ac43bb5921d8f952f3f5d34e452337c015f"
+    url "https://github.com/dimfeld/sqlweld/releases/download/v0.2.0/sqlweld-aarch64-apple-darwin.tar.gz"
+    sha256 "e27e54c9beb833dad8fc4c67e380444e504f4018f16c8b47ed56a26824d14dbc"
   else
-    url "https://github.com/dimfeld/sqlweld/releases/download/v0.1.5/sqlweld-x86_64-apple-darwin.tar.gz"
-    sha256 "3458829f15f5e97b57a8c1801e051a8282c89980b9b2230401e04379d020cbdb"
+    url "https://github.com/dimfeld/sqlweld/releases/download/v0.2.0/sqlweld-x86_64-apple-darwin.tar.gz"
+    sha256 "7f061dd077569d962bd769d8a6524826e700a2c1fbcda583eb0be9685ec61662"
   end
-  version "0.1.5"
+  version "0.2.0"
   license "MIT OR Apache-2.0"
 
   def install
